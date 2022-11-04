@@ -1,4 +1,4 @@
-var eventos = require('eventos');
+var eventos = require('events');
 var EmisorEventos = eventos.EventEmitter;
 var manejador = new EmisorEventos();
 
